@@ -1,6 +1,6 @@
 ///Add
 #ifdef RENEWAL_BOOK_NAME
-const char* CSkillManager::GetName(DWORD dwVnum)
+const char* CSkillManager::GetName(long dwVnum)
 {
 	static const std::map<DWORD, std::string> skill_list =
 	{
